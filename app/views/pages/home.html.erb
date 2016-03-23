@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alpha Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+      <h1>Alpha Blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"><%= link_to 'About', about_path %></a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Gallary</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="handle">Menu</div>
+    </nav>
+    <section>
+<p>Interdum fugit mi semper! Recusandae qui. Molestiae proident proin penatibus eu occaecat libero, pellentesque commodo, sagittis magnam, illum, incididunt ea, cubilia neque nihil nihil sagittis illum, doloremque volutpat arcu maecenas bibendum vehicula facilisis nulla commodo nesciunt. Netus curabitur iusto ratione laudantium incididunt praesentium reiciendis pretium nisi nihil voluptatem. Vestibulum suspendisse phasellus aliqua. Nostrud, esse adipiscing sequi, incidunt! Hendrerit sodales quidem sodales non numquam. Dicta irure, diamlorem proident libero, accusantium dolorem. Congue similique sociosqu rutrum venenatis corrupti arcu integer magni voluptatibus, et eget sed laoreet vitae, cupiditate et placerat mollit voluptatem aptent reiciendis, proin perferendis. Consectetur, saepe non magna? Nibh, posuere.</p>
+<p>Interdum fugit mi semper! Recusandae qui. Molestiae proident proin penatibus eu occaecat libero, pellentesque commodo, sagittis magnam, illum, incididunt ea, cubilia neque nihil nihil sagittis illum, doloremque volutpat arcu maecenas bibendum vehicula facilisis nulla commodo nesciunt. Netus curabitur iusto ratione laudantium incididunt praesentium reiciendis pretium nisi nihil voluptatem. Vestibulum suspendisse phasellus aliqua. Nostrud, esse adipiscing sequi, incidunt! Hendrerit sodales quidem sodales non numquam. Dicta irure, diamlorem proident libero, accusantium dolorem. Congue similique sociosqu rutrum venenatis corrupti arcu integer magni voluptatibus, et eget sed laoreet vitae, cupiditate et placerat mollit voluptatem aptent reiciendis, proin perferendis. Consectetur, saepe non magna? Nibh, posuere.</p>
+<p>Interdum fugit mi semper! Recusandae qui. Molestiae proident proin penatibus eu occaecat libero, pellentesque commodo, sagittis magnam, illum, incididunt ea, cubilia neque nihil nihil sagittis illum, doloremque volutpat arcu maecenas bibendum vehicula facilisis nulla commodo nesciunt. Netus curabitur iusto ratione laudantium incididunt praesentium reiciendis pretium nisi nihil voluptatem. Vestibulum suspendisse phasellus aliqua. Nostrud, esse adipiscing sequi, incidunt! Hendrerit sodales quidem sodales non numquam. Dicta irure, diamlorem proident libero, accusantium dolorem. Congue similique sociosqu rutrum venenatis corrupti arcu integer magni voluptatibus, et eget sed laoreet vitae, cupiditate et placerat mollit voluptatem aptent reiciendis, proin perferendis. Consectetur, saepe non magna? Nibh, posuere.</p>
+    </section>
+    <script>
+      $('.handle').on('click', function() {
+        $('nav ul').toggleClass('showing');
+      });
+    </script>
+</body>
+</html>
