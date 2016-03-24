@@ -1,1 +1,1 @@
-This is the repository for the First Ruby on Rails Application 
+This is the repository for the First Ruby on Rails Application
